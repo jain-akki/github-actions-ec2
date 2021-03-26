@@ -19,3 +19,7 @@ Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 ### `docker-compose -f docker-compose.prod.yml up -d --build`
 Open [http://localhost:8899](http://localhost:8899) to view it in the browser.
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-34-214-183-184.us-west-2.compute.amazonaws.com '
